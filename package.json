@@ -1,7 +1,7 @@
 {
   "name": "videojs-time",
   "version": "1.0.0",
-  "description": "get time of video watched",
+  "description": "Get the time watched video",
   "scripts": {
     "start": "gulp dist && gulp serve"
   },
