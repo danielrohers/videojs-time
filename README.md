@@ -24,3 +24,7 @@ View example
 ```bash
 npm start
 ```
+
+## License
+
+[Licence](https://github.com/danielrohers/videojs-time/blob/master/LICENSE) © Daniel Röhers Moura
