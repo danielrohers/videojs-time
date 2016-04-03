@@ -27,24 +27,16 @@ npm start
 
 ## Using
 ```js
-var get = function (currentTime) {
-  console.log('currentTime: ', currentTime);
-};
-var send = window.location.href;
-
-// call time in de the declaration
-var player = videojs('my-video', {
+videojs('my-video', {
   plugins: {
     time: {
-      get: get,
-      send: send
+      get : function (currentTime) {
+        console.log('currentTime: ', currentTime);
+      },
+      send: window.location.href
     }
   }
-})
-
-// or use events
-player.time.on('get', get);
-player.time.on('send', send)
+});
 ```
 
 ## License
